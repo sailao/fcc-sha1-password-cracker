@@ -23,5 +23,3 @@ def crack_sha1_hash(hash, use_salts=False):
                 result = password
                 break
     return result
-
-print(crack_sha1_hash("da5a4e8cf89539e66097acd2f8af128acae2f8ae", use_salts=True))
